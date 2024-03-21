@@ -45,20 +45,26 @@ class MainActivity : AppCompatActivity() {
 
     private fun startFlashingLights() {
         handler.post(object : Runnable {
-            var isWhite = true
+            var colorIndex = 0
+            val colors = arrayOf(
+                Color.RED,
+                Color.GREEN,
+                Color.BLUE,
+                Color.YELLOW,
+                Color.CYAN,
+                Color.MAGENTA,
+                Color.WHITE
+            ) // Add more colors as needed
             override fun run() {
                 if (isPartyModeOn) {
-                    if (isWhite) {
-                        rootView.setBackgroundColor(Color.WHITE)
-                    } else {
-                        rootView.setBackgroundColor(Color.BLACK)
-                    }
-                    isWhite = !isWhite
+                    rootView.setBackgroundColor(colors[colorIndex])
+                    colorIndex = (colorIndex + 1) % colors.size
                     handler.postDelayed(this, 500) // Change flashing speed here
                 }
             }
         })
     }
+
 
     private fun stopFlashingLights() {
         handler.removeCallbacksAndMessages(null)
