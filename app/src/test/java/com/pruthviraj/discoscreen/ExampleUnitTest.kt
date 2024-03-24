@@ -1,4 +1,4 @@
-package com.example.discoscreen
+package com.pruthviraj.discoscreen
 
 import org.junit.Test
 

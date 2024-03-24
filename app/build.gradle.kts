@@ -4,11 +4,19 @@ plugins {
 }
 
 android {
-    namespace = "com.example.discoscreen"
+    signingConfigs {
+        create("rel") {
+            storeFile = file("D:\\AndroidProject\\androidKey\\appkey.jks")
+            storePassword = "ZF@H@VG7XZU*EZ"
+            keyPassword = "ZF@H@VG7XZU*EZ"
+            keyAlias = "appkey"
+        }
+    }
+    namespace = "com.pruthviraj.discoscreen"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.discoscreen"
+        applicationId = "com.pruthviraj.discoscreen"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

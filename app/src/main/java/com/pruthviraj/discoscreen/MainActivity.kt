@@ -1,11 +1,10 @@
-package com.example.discoscreen
+package com.pruthviraj.discoscreen
 
 import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
-import android.view.WindowInsets
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 
