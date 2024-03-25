@@ -7,7 +7,7 @@ This Privacy Policy governs the manner in which the "DiscoScreen" mobile applica
    - **Personal Information:** The App does not collect any personally identifiable information from Users.
 
 2. **Third-Party Links:**
-   - The App may contain links to third-party websites or services. These third-party sites have separate and independent privacy policies. We, therefore, have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our App and welcome any feedback about these sites.
+   - The App dose not any contain links to third-party websites or services
 
 3. **Data Security:**
    - We have implemented appropriate security measures to protect against unauthorized access, alteration, disclosure, or destruction of Users' information stored on the App.
